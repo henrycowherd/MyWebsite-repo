@@ -1,0 +1,74 @@
+ul {
+    list-style-type: none;
+    margin-left: 200px;
+    margin-right: 200px;
+    overflow: hidden;
+    background-color: white;
+    font-family: Geneva;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: grey;
+    text-align: center;
+    padding: 10px 100px;
+    text-decoration: none;
+}
+li {
+    float: left;
+    border-bottom:1px solid #bbb;
+}
+li a:hover{
+    color: #696969;
+    border-bottom: 1px solid #696969;
+}
+li:last-child {
+    border-right: none;
+}
+#Title{
+    color: grey;
+    padding-top: 30px;
+    padding-left: 350px;
+    font-family: "Helvetica Neue";
+    font-size: 50px;
+}
+#Para1{
+    font-family: "Helvetica Neue";
+    color: grey;
+    font-size: 20px;
+    width: 60%;
+    padding-top: 30px;
+    padding-left: 350px;
+}
+#Para2{
+    font-family: "Helvetica Neue";
+    color: grey;
+    font-size: 20px;
+    width: 60%;
+    padding-top: 20px;
+    padding-left: 350px;
+}
+#Bottom\ Email\ Text{
+    padding-left: 400px;
+    font-size: 20px;
+    font-family: "Helvetica Neue";
+    color: grey;
+    padding-top: 20px;
+    padding-bottom: 75px;
+}
+.builtdifferentimg1{
+    width: 30%;
+    padding-left: 350px;
+    padding-top: 30px;
+
+}
+.builtdifferentimg2{
+    width: 30%;
+    padding-left: 20px;
+    padding-top: 30px;
+}

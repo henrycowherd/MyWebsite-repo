@@ -1,0 +1,102 @@
+ul {
+    list-style-type: none;
+    margin-left: 150px;
+    margin-right: 150px;
+    overflow: hidden;
+    background-color: white;
+    font-family: Geneva;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: grey;
+    text-align: center;
+    padding: 10px 100px;
+    text-decoration: none;
+
+}
+li {
+    float: left;
+    border-bottom:1px solid #bbb;
+}
+li a:hover{
+    color: #696969;
+    border-bottom: 1px solid #696969;
+}
+li:last-child {
+    border-right: none;
+}
+
+.arrowImg{
+    width: 12px; height: 9px;
+    padding-left: 0px;
+
+}
+
+.droneBackgroundImg{
+    width: 70%;
+    padding-left: 230px;
+    z-index: -1;
+}
+.DPtop-left {
+    position: absolute;
+    top: 275px;
+    left: 300px;
+    color: white;
+    font-size: 30px;
+    font-family: "Helvetica Neue";
+    z-index: 0;
+}
+.DPtop-left2 a{
+    position: absolute;
+    top: 310px;
+    left: 300px;
+    color: white;
+    font-size: 15px;
+    font-family: "Helvetica Neue";
+    text-decoration: none;
+    z-index: 0;
+}
+
+.schoolProjectsBackgroundImg{
+    width: 70%;
+    padding-left: 230px;
+    padding-top: 40px;
+
+}
+.SPtop-left1{
+    position: absolute;
+    top: 210px;
+    left: 400px;
+    color: white;
+    font-size: 50px;
+    font-family: "Helvetica Neue";
+}
+.SPtop-left2{
+    position: absolute;
+    top: 275px;
+    left: 400px;
+    color: white;
+    font-size: 15px;
+    font-family: "Helvetica Neue";
+
+}
+.schoolProjectsContainer{
+    position: relative;
+    z-index: -2;
+
+}
+#Bottom\ Email\ Text{
+    padding-left: 400px;
+    font-size: 20px;
+    font-family: "Helvetica Neue";
+    color: grey;
+    padding-top: 20px;
+    padding-bottom: 75px;
+}
