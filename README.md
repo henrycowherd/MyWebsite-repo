@@ -1,2 +1,2 @@
 # MyWebsite-repo
-My personal website for projects, contact info, etc.
+personal website for my projects, contact info, etc.
